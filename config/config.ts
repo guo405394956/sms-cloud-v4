@@ -10,7 +10,7 @@ export default defineConfig({
     hmr: true,
   },
   layout: {
-    name: 'Ant Design Pro',
+    name: defaultSettings.title,
     locale: true,
   },
   locale: {
@@ -67,21 +67,27 @@ export default defineConfig({
       path: '/list',
       component: './ListTableList',
     },
+    // {
+    //   path: '/',
+    //   redirect: '/welcome',
+    // },
+    // {
+    //   name: '工作台',
+    //   icon: 'smile',
+    //   path: '/dashboardworkplace',
+    //   component: './DashboardWorkplace',
+    // },
+    // {
+    //   name: '分析页',
+    //   icon: 'smile',
+    //   path: '/dashboardanalysis',
+    //   component: './DashboardAnalysis',
+    // },
     {
-      path: '/',
-      redirect: '/welcome',
-    },
-    {
-      name: '工作台',
+      name: '我的工作台',
       icon: 'smile',
-      path: '/dashboardworkplace',
-      component: './DashboardWorkplace',
-    },
-    {
-      name: '分析页',
-      icon: 'smile',
-      path: '/dashboardanalysis',
-      component: './DashboardAnalysis',
+      path: '/workplace',
+      component: './Workplace',
     },
     {
       component: './404',

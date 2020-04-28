@@ -45,7 +45,7 @@ export interface DefaultSettings {
 export default {
   navTheme: 'dark',
   // 拂晓蓝
-  primaryColor: '#1890ff',
+  primaryColor: '#6576ff',
   layout: 'sidemenu',
   contentWidth: 'Fluid',
   fixedHeader: false,
@@ -55,7 +55,7 @@ export default {
   menu: {
     locale: true,
   },
-  title: 'Ant Design Pro',
+  title: '豪霆云通讯平台',
   pwa: false,
   iconfontUrl: '',
 } as DefaultSettings;
